@@ -1,29 +1,23 @@
-# untitled
 
-This template should help get you started developing with Vue 3 in Vite.
+# Vue Folder Tree with Modal
 
-## Recommended IDE Setup
+This project demonstrates a Vue 3 application with a dynamic folder tree inside a modal dialog. The project is built using Vite and TypeScript.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Features
+- Dynamic modal with customizable title and interactive buttons.
+- Folder tree with expandable/collapsible nodes and single-folder selection.
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+## Installation
+1. Clone the repository:
+   ```
+   git clone https://github.com/IVT-mad/vue-folder-tree.git
+   cd vue-folder-tree
+   ```
+2. Install dependencies:
+   ```
+   npm install
+   ```
+3. Run the development server:
+   ```
+   npm run dev
+   ```
