@@ -1,3 +1,7 @@
+## 🌍 Live Demo
+
+👉 [Open Live Project](https://vue-folder-tree.vercel.app)
+
 # 📁 Vue Folder Tree
 
 A lightweight Vue 3 component to visualize and interact with folder structures — perfect for file explorers, admin panels, and documentation tools.
