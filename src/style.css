@@ -1,34 +1,45 @@
 /* Основные стили для страницы */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f9f9f9;
+	width: 100vw;
+	height: 100vh;
+	family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f9f9f9;
+	justify-content: center;
 }
 
+#app,
+modal-overlay {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 /* Кнопки */
 button {
-    padding: 10px 15px;
-    font-size: 16px;
-    color: white;
-    background-color: #007bff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+	padding: 10px 15px;
+	font-size: 16px;
+	color: white;
+	background-color: #007bff;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
 }
 
 button:hover {
-    background-color: #0056b3;
+	background-color: #0056b3;
 }
 
 button:disabled {
-    background-color: #cccccc;
-    cursor: not-allowed;
+	background-color: #cccccc;
+	cursor: not-allowed;
 }
 
 /* Заголовки */
-h1, h3 {
-    margin: 0 0 15px;
-    color: #333;
+h1,
+h3 {
+	margin: 0 0 15px;
+	color: #333;
 }
