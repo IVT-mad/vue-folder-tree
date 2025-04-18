@@ -1,23 +1,61 @@
+# 📁 Vue Folder Tree
 
-# Vue Folder Tree with Modal
+A lightweight Vue 3 component to visualize and interact with folder structures — perfect for file explorers, admin panels, and documentation tools.
 
-This project demonstrates a Vue 3 application with a dynamic folder tree inside a modal dialog. The project is built using Vite and TypeScript.
+## 🚀 Features
 
-## Features
-- Dynamic modal with customizable title and interactive buttons.
-- Folder tree with expandable/collapsible nodes and single-folder selection.
+- Vue 3 + Vite
+- Displays nested folder structures
+- Built-in mock data (`mockFolders.ts`)
+- Clean styling and component structure
+- Easy to integrate into any project
 
-## Installation
-1. Clone the repository:
-   ```
-   git clone https://github.com/IVT-mad/vue-folder-tree.git
-   cd vue-folder-tree
-   ```
-2. Install dependencies:
-   ```
-   npm install
-   ```
-3. Run the development server:
-   ```
-   npm run dev
-   ```
+## 🧪 Local Development
+
+Install dependencies:
+
+```bash
+npm install
+
+Run the development server:
+
+npm run dev
+
+Open in browser:
+
+http://localhost:5173
+
+📦 Build for Production
+
+npm run build
+
+Output will be in the dist/ directory.
+
+🌐 Deploy
+
+You can deploy the contents of dist/ using:
+	•	Vercel
+	•	Netlify
+	•	GitHub Pages
+	•	Your own server
+
+⚙️ Example deployment (Vercel):
+	1.	Push this repo to GitHub
+	2.	Go to vercel.com and import the project
+	3.	Framework preset: Vite
+	4.	Output directory: dist
+	5.	Click Deploy
+
+🗂 Project Structure
+
+vue-folder-tree/
+├── src/
+│   ├── App.vue
+│   ├── main.js
+│   ├── mockFolders.ts
+│   └── style.css
+├── public/
+│   └── favicon.ico
+├── index.html
+├── vite.config.js
+```
